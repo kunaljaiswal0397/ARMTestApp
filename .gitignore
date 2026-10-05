@@ -1,0 +1,11 @@
+# Salesforce org DATA never belongs in git — only design-time configuration does.
+*.ndjson
+**/describe/
+**/describe-*.json
+**/*_id_map.json
+**/*-id-map.json
+
+# Local CLI / editor noise
+.sfdx/
+.sf/
+node_modules/
