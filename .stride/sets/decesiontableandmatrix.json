@@ -1,0 +1,47 @@
+{
+  "slug": "decesiontableandmatrix",
+  "name": "DECESIONTABLEANDMATRIX",
+  "createdAt": "2026-10-07T12:04:38.111Z",
+  "updatedAt": "2026-10-07T12:04:38.111Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "DecisionMatrixDefinition",
+          "fullName": "TestdeploymentMAtrix"
+        },
+        {
+          "type": "DecisionMatrixDefinitionVersion",
+          "fullName": "TestdeploymentMAtrix_V1"
+        }
+      ]
+    },
+    "pricing": {
+      "procedures": [
+        {
+          "esdDeveloperName": "COMProductDiscoveryExt",
+          "usageType": "PricingDiscovery",
+          "version": 1
+        }
+      ]
+    },
+    "decisionTables": {
+      "tables": [
+        {
+          "developerName": "TestDeployment",
+          "sourceObject": "Product2"
+        }
+      ]
+    }
+  },
+  "branch": "feature/decesiontableandmatrix",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/decesiontableandmatrix.json",
+    "data/arm/decisionTables/TestDeployment.decisionTable.json",
+    "data/arm/pricing/COMProductDiscoveryExt.expressionSetDefinition-meta.xml",
+    "force-app/main/default/decisionMatrixDefinition/TestdeploymentMAtrix.decisionMatrixDefinition-meta.xml",
+    "force-app/main/default/decisionMatrixVersion/TestdeploymentMAtrix_V1.decisionMatrixVersion-meta.xml"
+  ]
+}
