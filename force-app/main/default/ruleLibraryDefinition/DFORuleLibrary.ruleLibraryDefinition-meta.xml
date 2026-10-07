@@ -40,11 +40,11 @@
     &quot;aggregateFunction&quot; : null,
     &quot;groupByTag&quot; : null,
     &quot;filterCriteriaName&quot; : null,
-    &quot;collection&quot; : false,
-    &quot;validationName&quot; : &quot;varMatchedId2Output&quot;,
     &quot;contextRuleElementType&quot; : &quot;RuleReferenceVariable&quot;,
-    &quot;input&quot; : false,
-    &quot;output&quot; : true
+    &quot;validationName&quot; : &quot;varMatchedId2Output&quot;,
+    &quot;collection&quot; : false,
+    &quot;output&quot; : true,
+    &quot;input&quot; : false
   }, {
     &quot;id&quot; : null,
     &quot;name&quot; : &quot;isExecuteStep&quot;,
@@ -57,11 +57,11 @@
     &quot;aggregateFunction&quot; : null,
     &quot;groupByTag&quot; : null,
     &quot;filterCriteriaName&quot; : null,
-    &quot;collection&quot; : false,
-    &quot;validationName&quot; : &quot;isExecuteStep&quot;,
     &quot;contextRuleElementType&quot; : &quot;RuleReferenceVariable&quot;,
-    &quot;input&quot; : false,
-    &quot;output&quot; : true
+    &quot;validationName&quot; : &quot;isExecuteStep&quot;,
+    &quot;collection&quot; : false,
+    &quot;output&quot; : true,
+    &quot;input&quot; : false
   }, {
     &quot;id&quot; : null,
     &quot;name&quot; : &quot;OLITags_ProductName&quot;,
@@ -74,11 +74,11 @@
     &quot;aggregateFunction&quot; : null,
     &quot;groupByTag&quot; : null,
     &quot;filterCriteriaName&quot; : null,
-    &quot;collection&quot; : true,
-    &quot;validationName&quot; : &quot;OLITags_ProductName&quot;,
     &quot;contextRuleElementType&quot; : &quot;RuleReferenceVariable&quot;,
-    &quot;input&quot; : true,
-    &quot;output&quot; : false
+    &quot;validationName&quot; : &quot;OLITags_ProductName&quot;,
+    &quot;collection&quot; : true,
+    &quot;output&quot; : false,
+    &quot;input&quot; : true
   }, {
     &quot;id&quot; : null,
     &quot;name&quot; : &quot;varCriterian_1Output&quot;,
@@ -91,11 +91,11 @@
     &quot;aggregateFunction&quot; : null,
     &quot;groupByTag&quot; : null,
     &quot;filterCriteriaName&quot; : null,
-    &quot;collection&quot; : false,
-    &quot;validationName&quot; : &quot;varCriterian_1Output&quot;,
     &quot;contextRuleElementType&quot; : &quot;RuleReferenceVariable&quot;,
-    &quot;input&quot; : false,
-    &quot;output&quot; : true
+    &quot;validationName&quot; : &quot;varCriterian_1Output&quot;,
+    &quot;collection&quot; : false,
+    &quot;output&quot; : true,
+    &quot;input&quot; : false
   }, {
     &quot;id&quot; : null,
     &quot;name&quot; : &quot;contextNodeId&quot;,
@@ -108,11 +108,11 @@
     &quot;aggregateFunction&quot; : null,
     &quot;groupByTag&quot; : null,
     &quot;filterCriteriaName&quot; : null,
-    &quot;collection&quot; : true,
-    &quot;validationName&quot; : &quot;contextNodeId&quot;,
     &quot;contextRuleElementType&quot; : &quot;RuleReferenceVariable&quot;,
-    &quot;input&quot; : true,
-    &quot;output&quot; : false
+    &quot;validationName&quot; : &quot;contextNodeId&quot;,
+    &quot;collection&quot; : true,
+    &quot;output&quot; : false,
+    &quot;input&quot; : true
   }, {
     &quot;id&quot; : null,
     &quot;name&quot; : &quot;matchingRecordIdList&quot;,
@@ -125,11 +125,11 @@
     &quot;aggregateFunction&quot; : null,
     &quot;groupByTag&quot; : null,
     &quot;filterCriteriaName&quot; : null,
-    &quot;collection&quot; : false,
-    &quot;validationName&quot; : &quot;matchingRecordIdList&quot;,
     &quot;contextRuleElementType&quot; : &quot;RuleReferenceVariable&quot;,
-    &quot;input&quot; : false,
-    &quot;output&quot; : true
+    &quot;validationName&quot; : &quot;matchingRecordIdList&quot;,
+    &quot;collection&quot; : false,
+    &quot;output&quot; : true,
+    &quot;input&quot; : false
   } ],
   &quot;criteria&quot; : [ {
     &quot;id&quot; : null,
@@ -147,8 +147,8 @@
       &quot;valueType&quot; : &quot;Literal&quot;,
       &quot;sequenceNumber&quot; : 1,
       &quot;matchType&quot; : null,
-      &quot;validationName&quot; : null,
-      &quot;contextRuleElementType&quot; : &quot;RuleCondition&quot;
+      &quot;contextRuleElementType&quot; : &quot;RuleCondition&quot;,
+      &quot;validationName&quot; : null
     } ],
     &quot;actions&quot; : [ {
       &quot;id&quot; : null,
@@ -163,8 +163,8 @@
         &quot;valueType&quot; : &quot;Literal&quot;,
         &quot;sequenceNumber&quot; : 1,
         &quot;sourceCriteriaName&quot; : null,
-        &quot;validationName&quot; : &quot;varCriterian_1Output&quot;,
-        &quot;contextRuleElementType&quot; : &quot;RuleActionParameter&quot;
+        &quot;contextRuleElementType&quot; : &quot;RuleActionParameter&quot;,
+        &quot;validationName&quot; : &quot;varCriterian_1Output&quot;
       }, {
         &quot;id&quot; : null,
         &quot;name&quot; : &quot;varMatchedId2Output&quot;,
@@ -172,8 +172,8 @@
         &quot;valueType&quot; : &quot;RuleReferenceVariable&quot;,
         &quot;sequenceNumber&quot; : 2,
         &quot;sourceCriteriaName&quot; : null,
-        &quot;validationName&quot; : &quot;varMatchedId2Output&quot;,
-        &quot;contextRuleElementType&quot; : &quot;RuleActionParameter&quot;
+        &quot;contextRuleElementType&quot; : &quot;RuleActionParameter&quot;,
+        &quot;validationName&quot; : &quot;varMatchedId2Output&quot;
       }, {
         &quot;id&quot; : null,
         &quot;name&quot; : &quot;matchingRecordIdList&quot;,
@@ -181,8 +181,8 @@
         &quot;valueType&quot; : &quot;RuleReferenceVariable&quot;,
         &quot;sequenceNumber&quot; : 3,
         &quot;sourceCriteriaName&quot; : null,
-        &quot;validationName&quot; : &quot;matchingRecordIdList&quot;,
-        &quot;contextRuleElementType&quot; : &quot;RuleActionParameter&quot;
+        &quot;contextRuleElementType&quot; : &quot;RuleActionParameter&quot;,
+        &quot;validationName&quot; : &quot;matchingRecordIdList&quot;
       }, {
         &quot;id&quot; : null,
         &quot;name&quot; : &quot;isExecuteStep&quot;,
@@ -190,23 +190,23 @@
         &quot;valueType&quot; : &quot;Literal&quot;,
         &quot;sequenceNumber&quot; : 4,
         &quot;sourceCriteriaName&quot; : null,
-        &quot;validationName&quot; : &quot;isExecuteStep&quot;,
-        &quot;contextRuleElementType&quot; : &quot;RuleActionParameter&quot;
+        &quot;contextRuleElementType&quot; : &quot;RuleActionParameter&quot;,
+        &quot;validationName&quot; : &quot;isExecuteStep&quot;
       } ],
-      &quot;validationName&quot; : &quot;SetOutputValueToVariable&quot;,
-      &quot;contextRuleElementType&quot; : &quot;RuleAction&quot;
+      &quot;contextRuleElementType&quot; : &quot;RuleAction&quot;,
+      &quot;validationName&quot; : &quot;SetOutputValueToVariable&quot;
     } ],
     &quot;variable&quot; : null,
-    &quot;validationName&quot; : &quot;Criteria_1&quot;,
-    &quot;contextRuleElementType&quot; : &quot;RuleFilterCriteria&quot;
+    &quot;contextRuleElementType&quot; : &quot;RuleFilterCriteria&quot;,
+    &quot;validationName&quot; : &quot;Criteria_1&quot;
   } ],
   &quot;actions&quot; : [ ],
   &quot;hashValues&quot; : null,
   &quot;ruleVersionNumbers&quot; : [ 1 ],
   &quot;updateVersion&quot; : true,
-  &quot;validationName&quot; : &quot;DFO_0qDWs0000000U9NMAU_RS_Rule_1&quot;,
+  &quot;contextRuleElementType&quot; : &quot;Rule&quot;,
   &quot;eligibleRule&quot; : false,
-  &quot;contextRuleElementType&quot; : &quot;Rule&quot;
+  &quot;validationName&quot; : &quot;DFO_0qDWs0000000U9NMAU_RS_Rule_1&quot;
 }</rulePayload>
             <ruleStatus>Active</ruleStatus>
             <sequenceNumber>1</sequenceNumber>
