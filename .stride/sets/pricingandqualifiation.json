@@ -1,0 +1,33 @@
+{
+  "slug": "pricingandqualifiation",
+  "name": "pricingandqualifiation",
+  "createdAt": "2026-10-07T09:59:26.017Z",
+  "updatedAt": "2026-10-07T09:59:26.017Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "ExpressionSetDefinition",
+          "fullName": "Product_Qualification_CLONE"
+        }
+      ]
+    },
+    "pricing": {
+      "procedures": [
+        {
+          "esdDeveloperName": "RevPricingProcedureSourcev2",
+          "usageType": "DefaultPricing",
+          "version": 2
+        }
+      ]
+    }
+  },
+  "branch": "feature/pricingandqualifiation",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/pricingandqualifiation.json",
+    "data/arm/pricing/RevPricingProcedureSourcev2.expressionSetDefinition-meta.xml",
+    "force-app/main/default/expressionSetDefinition/Product_Qualification_CLONE.expressionSetDefinition-meta.xml"
+  ]
+}
