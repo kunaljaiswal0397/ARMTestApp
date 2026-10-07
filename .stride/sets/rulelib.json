@@ -1,0 +1,28 @@
+{
+  "slug": "rulelib",
+  "name": "rulelib",
+  "createdAt": "2026-10-07T12:32:57.104Z",
+  "updatedAt": "2026-10-07T12:32:57.104Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "PricingRecipe",
+          "fullName": "NGPDefaultRecipe"
+        },
+        {
+          "type": "RuleLibraryDefinition",
+          "fullName": "DFORuleLibrary"
+        }
+      ]
+    }
+  },
+  "branch": "feature/rulelib",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/rulelib.json",
+    "force-app/main/default/pricingRecipe/NGPDefaultRecipe.pricingRecipe-meta.xml",
+    "force-app/main/default/ruleLibraryDefinition/DFORuleLibrary.ruleLibraryDefinition-meta.xml"
+  ]
+}
