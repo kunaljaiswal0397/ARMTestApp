@@ -1,0 +1,23 @@
+{
+  "slug": "contextdef",
+  "name": "contextdef",
+  "createdAt": "2026-10-06T15:53:12.952Z",
+  "updatedAt": "2026-10-06T15:53:12.952Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "ContextDefinition",
+          "fullName": "Rev_SalesTrnas"
+        }
+      ]
+    }
+  },
+  "branch": "feature/contextdef",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/contextdef.json",
+    "force-app/main/default/contextDefinitions/Rev_SalesTrnas.contextDefinition-meta.xml"
+  ]
+}
