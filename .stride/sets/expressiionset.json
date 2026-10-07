@@ -1,0 +1,43 @@
+{
+  "slug": "expressiionset",
+  "name": "expressiionset",
+  "createdAt": "2026-10-07T12:19:24.113Z",
+  "updatedAt": "2026-10-07T12:19:24.113Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "ExpressionSetDefinitionVersion",
+          "fullName": "COMProductDiscoveryExt_V1"
+        },
+        {
+          "type": "ExpressionSetDefinitionVersion",
+          "fullName": "Product_Qualification_CLONE_V1"
+        },
+        {
+          "type": "ExpressionSetDefinitionVersion",
+          "fullName": "RevPricingProcedureSourcev2_V1"
+        },
+        {
+          "type": "PricingRecipe",
+          "fullName": "NGPDefaultRecipe"
+        },
+        {
+          "type": "RuleLibraryDefinition",
+          "fullName": "DFORuleLibrary"
+        }
+      ]
+    }
+  },
+  "branch": "feature/expressiionset",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/expressiionset.json",
+    "force-app/main/default/expressionSetVersion/COMProductDiscoveryExt_V1.expressionSetVersion-meta.xml",
+    "force-app/main/default/expressionSetVersion/Product_Qualification_CLONE_V1.expressionSetVersion-meta.xml",
+    "force-app/main/default/expressionSetVersion/RevPricingProcedureSourcev2_V1.expressionSetVersion-meta.xml",
+    "force-app/main/default/pricingRecipe/NGPDefaultRecipe.pricingRecipe-meta.xml",
+    "force-app/main/default/ruleLibraryDefinition/DFORuleLibrary.ruleLibraryDefinition-meta.xml"
+  ]
+}
