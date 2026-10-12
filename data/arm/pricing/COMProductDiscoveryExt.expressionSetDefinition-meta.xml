@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExpressionSetDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contextDefinitions>BrowseProductsCtxDefinition</contextDefinitions>
+    <executionMode>Cloud</executionMode>
+    <executionScale>Low</executionScale>
+    <interfaceSourceType>DiscoveryProcedure</interfaceSourceType>
+    <label>COMProductDiscoveryExt</label>
+    <processType>PricingDiscovery</processType>
+    <template>false</template>
+    <versions>
+        <fullName>COMProductDiscoveryExt_V1</fullName>
+        <decimalScale>2</decimalScale>
+        <expressionSetDefinition>COMProductDiscoveryExt</expressionSetDefinition>
+        <interfaceSourceType>DiscoveryProcedure</interfaceSourceType>
+        <label>COMProductDiscoveryExt V1</label>
+        <processType>PricingDiscovery</processType>
+        <shouldShowExplExternally>false</shouldShowExplExternally>
+        <startDate>2026-10-07T12:02:27.000Z</startDate>
+        <status>Draft</status>
+        <versionNumber>1</versionNumber>
+    </versions>
+</ExpressionSetDefinition>
