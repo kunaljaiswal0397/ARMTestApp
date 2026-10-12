@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExpressionSetDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contextDefinitions>Rev_SalesTrnas</contextDefinitions>
+    <executionMode>Cloud</executionMode>
+    <executionScale>Low</executionScale>
+    <interfaceSourceType>PricingProcedure</interfaceSourceType>
+    <label>RevPricingProcedureSourcev2</label>
+    <processType>DefaultPricing</processType>
+    <template>false</template>
+    <usageSubtype>RevenueCloud</usageSubtype>
+    
+    <versions>
+        <fullName>RevPricingProcedureSourcev2_RevPricingProcedureSourcev2_V20</fullName>
+        <decimalScale>2</decimalScale>
+        <expressionSetDefinition>RevPricingProcedureSourcev2</expressionSetDefinition>
+        <interfaceSourceType>PricingProcedure</interfaceSourceType>
+        <label>RevPricingProcedureSourcev2 V2</label>
+        <processType>DefaultPricing</processType>
+        <shouldShowExplExternally>false</shouldShowExplExternally>
+        <startDate>2026-10-07T09:54:42.000Z</startDate>
+        <status>Draft</status>
+        <versionNumber>2</versionNumber>
+    </versions>
+</ExpressionSetDefinition>
