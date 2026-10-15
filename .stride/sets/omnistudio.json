@@ -1,0 +1,43 @@
+{
+  "slug": "omnistudio",
+  "name": "omnistudio",
+  "createdAt": "2026-10-15T08:45:53.906Z",
+  "updatedAt": "2026-10-15T08:45:53.906Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "OmniScript",
+          "fullName": "ProductGuidedSelection_Integration_English_2"
+        },
+        {
+          "type": "OmniScript",
+          "fullName": "GuidedProductSelling_ComputerChoice_English_2"
+        },
+        {
+          "type": "OmniIntegrationProcedure",
+          "fullName": "Billing_GetPaymentPromiseDetails_Procedure_2"
+        },
+        {
+          "type": "OmniDataTransform",
+          "fullName": "BillingCollectionPaymentScheduleClone_1"
+        },
+        {
+          "type": "OmniScript",
+          "fullName": "ProductGuidedSelection_Integration_English_1"
+        }
+      ]
+    }
+  },
+  "branch": "feature/omnistudio",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/omnistudio.json",
+    "force-app/main/default/omniDataTransforms/BillingCollectionPaymentScheduleClone_1.rpt-meta.xml",
+    "force-app/main/default/omniIntegrationProcedures/Billing_GetPaymentPromiseDetails_Procedure_2.oip-meta.xml",
+    "force-app/main/default/omniScripts/GuidedProductSelling_ComputerChoice_English_2.os-meta.xml",
+    "force-app/main/default/omniScripts/ProductGuidedSelection_Integration_English_1.os-meta.xml",
+    "force-app/main/default/omniScripts/ProductGuidedSelection_Integration_English_2.os-meta.xml"
+  ]
+}
